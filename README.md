@@ -36,33 +36,9 @@ npm run dev
 
 Open the local URL printed by Vite, normally `http://localhost:5173`.
 
-## Production build
 
-```bash
-npm run build
-npm run preview
-```
-
-The production files are generated in `dist/`.
-
-## Deploy to Vercel
-
-1. Push the project to a GitHub repository.
-2. In Vercel, select **Add New → Project** and import the repository.
-3. Use these settings (Vercel usually detects Vite automatically):
-   - Framework preset: **Vite**
-   - Build command: `npm run build`
-   - Output directory: `dist`
-   - Install command: `npm install`
-4. Click **Deploy**.
-
-No environment variables or backend are required.
-
-## Progress and privacy
 
 Test history is saved in this browser's `localStorage`. It does not automatically sync across devices or browsers. Clearing browser site data will clear saved progress.
-
-## Notes
 
 - Google Fonts are loaded from Google Fonts when network access is available; fallback fonts are configured.
 - The Persian lesson is shown with right-to-left text direction.
